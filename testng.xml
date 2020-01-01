@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation" verbose="1"  parallel="tests" thread-count="2">
+<test name="Demo Test">
+<classes>
+<class name="testCases.LoginTest">
+<methods>
+<include name="test1"></include>
+<include name="test2"></include>
+</methods>
+</class>
+
+<class name="testCases.HomePage">
+<methods>
+<include name="Hometest1"></include>
+<include name="Hometest2"></include>
+</methods>
+</class>
+
+</classes>
+</test>
+<test name="Demo Test 2">
+<classes>
+<class name="testCases.LoginTest">
+<methods>
+<include name="test1"></include>
+<include name="test2"></include>
+</methods>
+</class>
+
+<class name="testCases.HomePage">
+<methods>
+<include name="Hometest1"></include>
+<include name="Hometest2"></include>
+</methods>
+</class>
+
+</classes>
+</test>
+</suite>
